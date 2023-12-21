@@ -1,1 +1,1 @@
-# js-basic-questions
+# JS-Basic-Questions
