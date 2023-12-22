@@ -56,3 +56,70 @@
 // console.log(`Sum of all positive numbers is ${sum}`);
 
 // 6. Find the index of the first occurrence of a specific element in an array.
+// let element = 79;
+// let array = [57, 34, 66, 79, 28, 13, 79, 48];
+// console.log(`Index of element's first occurrence is ${array.indexOf(element)}`);
+
+// 7. Remove all duplicates from an array without built-in methods.
+// let array1 = [1, 2, 3, 4, 2, 3, 5, 6, 1];
+
+// 9. Print all even numbers between 1 and 20 using a while loop.
+// let i = 1;
+// while (i <= 20) {
+//     if (i % 2 == 0)
+//     console.log(i);
+// i++;
+// }
+
+// 10. Calculate the factorial of a number using a do-while loop.
+// let fact = 1;
+// let num = 10;
+// let i = num;
+
+// do {
+//     fact *= i--;
+// } while (i > 0);
+
+// console.log(`Factorial of ${num}! is ${fact}`);
+
+// 11. Iterate through the properties of an object using a for-in loop.
+// const insta_profile = {
+    //     username: "@shardha_khapra",
+//     no_of_posts: 195,
+//     followers: 569000,
+//     following: 4,
+//     bio: `#Entrepreneur,\n\tApna College | Ex-Microsoft, DRDO\n\tTo educate someone is the highest privilege ♥`,
+// }
+
+// for(let key in insta_profile) {
+//     console.log(`${key}: ${insta_profile[key]}`);
+// }
+
+// 12. Loop through an array using a for-of loop and double each element.
+// let numbersArr = [2, 7, 3, 5, 10, 13, 8];
+// let arr = [];
+// for (let item of numbersArr) {
+    //     arr.push(item *= 2);
+    // }
+    // console.log(arr);
+    
+// 13. Check if a number is even or odd and return a corresponding message.
+// let num = 10;
+// console.log(num % 2 == 0 ? `${num} is Even` : `${num} is Odd`);
+
+// 14. Find the maximum of three numbers using nested ternary operators.
+// let num1 = 4;
+// let num2 = 7;
+// let num3 = 10;
+// let max;
+
+// max = (num1 > num2) ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3)
+// console.log(`Maximum of ${num1}, ${num2} and ${num3} is ${max}`);
+
+// 15. Determine if a year is a leap year or not.
+// let year = 1992;
+
+// if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) 
+//     console.log(`${year} is a leap year`);
+// else 
+//     console.log(`${year} is not a leap year`);
