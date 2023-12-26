@@ -72,15 +72,47 @@
 // console.log(array2);
 
 // 8. Sort the array in ascending and descending without built-in methods.
-// let arrToSort = [57, 34, 66, 79, 28, 13, 84, 48, 11, 90];
-// function compare1(a, b) {
-//     return a-b;
+// function sortAscending(arr, n)  
+// {  
+//     let key, j;  
+//     for (let i = 1; i < n; i++) 
+//     {  
+//         key = arr[i];  
+//         j = i - 1;  
+
+//         while (j >= 0 && arr[j] > key) 
+//         {  
+//             arr[j + 1] = arr[j];  
+//             j = j - 1;  
+//         }  
+//         arr[j + 1] = key;  
+//     }  
 // }
-// function compare2(a, b) {
-//     return b-a;
+
+// function sortDescending(arr, n)  
+// {  
+//     let key, j;  
+//     for (let i = 1; i < n; i++) 
+//     {  
+//         key = arr[i];  
+//         j = i - 1;  
+
+//         while (j >= 0 && arr[j] < key) 
+//         {  
+//             arr[j + 1] = arr[j];  
+//             j = j - 1;  
+//         }  
+//         arr[j + 1] = key;  
+//     }  
 // }
-// console.log(`Ascending order: ${arrToSort.sort(compare1)}`);
-// console.log(`Descending order: ${arrToSort.sort(compare2)}`);
+
+// let arrToSort1 = [57, 34, 66, 79, 28, 13, 84, 48, 11, 90];
+// let arrToSort2 = [67, 16, 64, 69, 32, 42, 21, 88, 39, 99];
+
+// sortAscending(arrToSort1, arrToSort1.length);
+// sortDescending(arrToSort2, arrToSort2.length);
+
+// console.log(`Ascending order: ${arrToSort1}`, `\nDescending order: ${arrToSort2}`);
 
 // 9. Print all even numbers between 1 and 20 using a while loop.
 // let i = 1;
